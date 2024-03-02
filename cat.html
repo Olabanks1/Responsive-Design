@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cat head</title>
+    <link rel="stylesheet" href="styles.css">
+        <style>
+.cat-head{
+    width: 240px;
+    height: 180px;
+    background: blue;
+    border: 2px solid blue;
+    border-radius: 50%;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    position:absolute;
+    
+}
+.cat-left-ear{
+    border-left:40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid blue;
+    position: absolute;
+    top:-20px;
+    left:-30px;
+    rotate:-45deg;
+    border-top-right-radius: 500px;
+    border-top-left-radius: 50px;
+}
+.cat-right-ear{
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid blue;
+    position: absolute;
+    top:-20px;
+    right:-30px;
+    rotate:45deg;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 50px;
+}
+.cat-inner-left-ear{
+    position:absolute;
+    left:-15px;
+    top: 20px;
+    border-left:15px solid transparent;
+    border-right:15px solid transparent;
+    border-bottom: 30px solid rgb(22, 21, 34);
+    border-radius: 20%;
+    border-top-right-radius: 30px;
+}
+.cat-inner-right-ear{
+    position:absolute;
+    left:-15px;
+    top: 20px;
+    border-left:15px solid transparent;
+    border-right:15px solid transparent;
+    border-bottom: 30px solid rgb(22, 21, 34);
+    border-radius: 20%;
+    border-top-right-radius: 30px;
+}
+.cat-left-eyes{
+    width:30px;
+    height: 40px;
+    background-color: darkgray;
+    position:absolute;
+    top:40px;
+    left:50px;
+    border-radius: 50%;
+}
+.cat-right-eyes{
+    width:30px;
+    height: 40px;
+    background-color: darkgray;
+    position:absolute;
+    top:40px;
+    right:50px;
+    border-radius: 50%;
+    
+}
+.cat-inner-left-eyes{
+    width:12px;
+    height: 20px; 
+    background: black;
+    border-radius: 60%;
+    position: relative;
+    top:10px;
+    left:10px;
+}
+.cat-inner-right-eyes{
+    width:12px;
+    height: 20px; 
+    background: black;
+    border-radius: 60%;
+    position: relative;
+    top:10px;
+    left:10px;
+}
+.cat-nose {
+  position: absolute;
+  top: 90px;
+  left: 105px;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  transform: rotate(180deg);
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid #442c2c;
+}
+
+.cat-mouth div {
+  width: 30px;
+  height: 50px;
+  border: 2px solid #000;
+  border-radius: 190%/190px 150px 0 0;
+  border-color: black transparent transparent transparent;
+}
+
+.cat-mouth-line-left {
+  position: absolute;
+  top: 70px;
+  left: 95px;
+  transform: rotate(185deg);
+}
+
+.cat-mouth-line-right {
+  position: absolute;
+  top:70px;
+  left: 107px;
+  transform: rotate(160deg);
+}
+
+        </style>
+    </head>
+    <body>
+       
+       <div class="cat-head">
+            <div class="cat-left-ear">
+                <div class="cat-inner-left-ear"></div>
+            </div>
+            <div class="cat-right-ear">
+                <div class="cat-inner-right-ear"></div>
+            </div>
+
+            <div class="cat-eyes">
+                <div class="cat-left-eyes">
+<div class="cat-inner-left-eyes"></div>
+                </div>
+                <div class="cat-right-eyes">
+<div class="cat-inner-right-eyes"></div>
+                </div>
+            </div>
+           
+            <div class="cat-nose"></div>
+
+            <div class="cat-mouth">
+              <div class="cat-mouth-line-left"></div>
+              <div class="cat-mouth-line-right"></div>
+            </div>
+        </div>
+    </body>
+</html>

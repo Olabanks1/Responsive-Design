@@ -1,0 +1,53 @@
+.head{
+    text-align: center;
+    color:blue;
+    font-weight: 800;
+    font-size: 25px;
+}
+.log-in{
+    max-width: fit-content;
+    margin:auto;
+}
+input{
+    display:block;
+    margin-bottom: 7px;
+    background:rgba(121, 117, 117, 0.774);
+    color: black;
+    width: 300px;
+    height: 30px;
+    border-radius: 3px; 
+    border-width:0;
+}
+#in{
+    background-color: blue;
+    border-radius: 3px;
+    color:white
+}
+.for{
+text-align: center;
+}
+hr{
+    width:100vw;
+    width:initial ;
+}
+#new{
+    background: none;
+    color:black;
+    margin: auto;
+    border:0.5px solid rgb(199, 198, 198)
+
+    
+}
+.lang{
+margin:0 30vw;
+}
+.langs{
+    margin:0 60vw;
+    
+}
+.v{
+    margin-bottom: -55px;
+}
+.a{
+    margin-top: 50px;
+}

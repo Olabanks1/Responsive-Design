@@ -1,0 +1,41 @@
+h1,p{
+    text-align: center;
+    color:white;
+    margin-top: 0;
+    margin-bottom:3px;
+    
+}
+p{
+    margin-bottom: 15px;
+}
+input{
+    display: block;
+   margin: 5px auto; 
+   width: 250px;
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:green;
+}
+.content{
+    background-color: rgb(35, 35, 78);
+    max-width:500px;
+    margin:auto;
+    margin-top: 150px;
+    padding: 10px;
+    overflow: hidden;
+}
+.link{
+    color: green;
+    margin: 0;
+}
+.links{
+    margin: 0;
+    
+}
+body{
+    background-image:url(Materials/IMG_20230731_205425.jpg);
+    background-size:cover;
+}
